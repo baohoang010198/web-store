@@ -1,0 +1,15 @@
+
+.menuMobile{
+    display: none;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .menu{
+      display: none;
+    }
+    .menuMobile{
+      display: flex;
+      justify-content: center;
+    }
+  }

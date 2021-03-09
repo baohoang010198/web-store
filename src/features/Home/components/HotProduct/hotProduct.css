@@ -1,0 +1,45 @@
+.hotProduct-banner-wrap{
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 10vh;
+}
+.Divider{
+    padding-top: 30px;
+    height: 10vh;
+}
+.hotProduct-img-wrap{
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+}
+.hotProduct-img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 90%;
+    height: 90%;
+    
+    z-index: 0;
+    margin: 5%;
+}
+.hotProduct-btn{
+    display: none;
+    font-size: 30px;
+    color: #f8a503;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transition: 1s ease-in-out;
+}
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .hotProduct-img-wrap{
+        height: 50vh;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .hotProduct-img-wrap{
+        height: 70vh;
+    }
+}

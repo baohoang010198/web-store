@@ -1,0 +1,63 @@
+.bg-login{
+    height: auto;
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("https://data.1freewallpapers.com/download/watches-spruce-spines.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.logo-login{
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.login-form{
+    
+    background-color:white;
+
+    width: auto;
+    min-width: 300px;
+    max-width: 500px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 20px;
+    margin: 0 50px;
+
+}
+.title-login{
+    color: #f4a805;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-login{
+    background-color: #f4a805;
+    width: 100%;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+}
+.btn-login-with{
+    text-align: center;
+}
+.icon-btn-login{
+    text-align: center;
+    font-size: 30px;
+}
+.btn-login-google{
+    color: red;
+
+}
+.btn-login-facebook{
+    color: blue;
+}
+.btn-login-twitter{
+    color: blue;
+}

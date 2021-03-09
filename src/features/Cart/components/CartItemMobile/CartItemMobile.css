@@ -1,0 +1,40 @@
+.cartMobile-wrap{
+    margin-top: 10px;
+
+    display: flex;
+}
+.cartMobile-img{
+    width: 20%;
+    height: 100px;
+}
+.cartMobile-content{
+    text-align: center;
+
+    width: 40%;
+
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.cartMobile-button{
+    display: flex;
+    justify-content: center;
+}
+.cartMobile-quantity{
+    margin: 0 2px;
+
+    text-align: center;
+
+    width: 40px;
+}
+.cartMobile-delete{
+    margin: 0 2px;
+}
+.cartMobile-price{
+    text-align: center;
+
+    width: 40%;
+
+    margin: 10px;
+}

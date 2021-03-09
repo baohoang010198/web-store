@@ -1,0 +1,17 @@
+.cartItemDropDown-wrap{
+    background-color: white;
+    margin: 5px 0;
+    padding: 5px;
+}
+.img-item{
+    width: 100%;
+    overflow: hidden;
+}
+.img-item img{
+    height: 100px;
+    width: 100px;
+}
+.cartItemDropDown-wrap:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}

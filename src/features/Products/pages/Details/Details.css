@@ -1,0 +1,38 @@
+.product-show{
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+.product-related{
+   padding:10px;
+}
+.product-detail{
+    text-align: center;
+}
+
+.product-image{
+    margin-left:25% ;
+    height: 50vh;
+    width: 50%;
+    padding: 10px;
+}
+.product-slide-image{
+    display: none;
+}
+.btn-cart-mobile{
+    display: none;
+}
+
+/* Table & Mobile width < 1024px */
+@media only screen and (max-width: 63.9375em) {
+    .btn-cart-mobile{
+        display: block;
+    }
+    .btn-cart-pc{
+        display: none;
+    }
+    .product-image{
+        margin-left:0% ;
+        width: 100%;
+        padding: 10px;
+    }
+}

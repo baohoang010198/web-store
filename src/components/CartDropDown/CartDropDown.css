@@ -1,0 +1,23 @@
+.cartDropdown-wrap{
+    background-color: wheat;
+    
+    padding: 10px;
+    max-width: 500px;
+    height: auto;
+
+    cursor: pointer;
+}
+.cartDropdown-icon{
+    cursor: pointer;
+}
+.total-price{
+    font-size: 24px;
+    color: grey;
+    float: right;
+}
+.btnDropDown-checkout{
+    color: white;
+    display: block;
+    width: 100%;
+    background-color: blue;
+}

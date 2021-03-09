@@ -1,0 +1,12 @@
+.header{
+  padding-top: 10px;
+  background-color: white;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  }
+.user-setting{
+  align-content: center;
+}
